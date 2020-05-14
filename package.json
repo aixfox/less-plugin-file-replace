@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-file-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "less plugin for replacing filename of @import via less FileManager loadFile()",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,16 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "author": "aixfox",
   "license": "MIT",
+  "repository": "https://github.com/aixfox/less-plugin-file-replace",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "keywords": [
+    "less plugin"
+  ],
   "dependencies": {},
   "peerDependencies": {
     "less": "^3.0.0"
