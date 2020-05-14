@@ -1,0 +1,36 @@
+{
+  "name": "less-plugin-file-replace",
+  "version": "1.0.0",
+  "description": "less plugin for replacing filename of @import via less FileManager loadFile()",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib -s",
+    "prepack": "npm run build",
+    "lint": "eslint --ext .js src",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "less": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "babel-eslint": "^10.1.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.0.1",
+    "less": "^3.11.1"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  }
+}
